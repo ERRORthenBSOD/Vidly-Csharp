@@ -233,6 +233,10 @@
     <Compile Include="Migrations\201812242051407_GenreIdFieldInMovieModel.Designer.cs">
       <DependentUpon>201812242051407_GenreIdFieldInMovieModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812252049316_ValidationCustomer.cs" />
+    <Compile Include="Migrations\201812252049316_ValidationCustomer.Designer.cs">
+      <DependentUpon>201812252049316_ValidationCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -240,6 +244,7 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
+    <Compile Include="Models\Min18YearrsIfAMember.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -367,6 +372,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812242051407_GenreIdFieldInMovieModel.resx">
       <DependentUpon>201812242051407_GenreIdFieldInMovieModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812252049316_ValidationCustomer.resx">
+      <DependentUpon>201812252049316_ValidationCustomer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
