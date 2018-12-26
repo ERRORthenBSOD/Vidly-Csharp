@@ -28,7 +28,8 @@ namespace Vidly.Models
         public DateTime DateAdded { get; set; } = DateTime.Now;
 
         [Required]
+        [Range(1,20)]
         [Display(Name = "Number in Stock")]
-        public int NumberInStock { get; set; }
+        public byte NumberInStock { get; set; }
     }
 }

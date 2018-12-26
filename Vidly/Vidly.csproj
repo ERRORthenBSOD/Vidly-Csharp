@@ -237,6 +237,10 @@
     <Compile Include="Migrations\201812252049316_ValidationCustomer.Designer.cs">
       <DependentUpon>201812252049316_ValidationCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812262030062_littleFixes.cs" />
+    <Compile Include="Migrations\201812262030062_littleFixes.Designer.cs">
+      <DependentUpon>201812262030062_littleFixes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -375,6 +379,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812252049316_ValidationCustomer.resx">
       <DependentUpon>201812252049316_ValidationCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812262030062_littleFixes.resx">
+      <DependentUpon>201812262030062_littleFixes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
